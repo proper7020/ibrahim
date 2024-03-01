@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.proper{
+    /* justify-content: space-between; */
+    display: flex;
+}
+
+
+.img {
+  border: 2px solid red;
+  border-radius: 8px;
+  width: 200px;
+}
+#img2{
+    border-radius: 50%;
+}

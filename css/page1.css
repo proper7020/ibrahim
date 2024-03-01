@@ -1,0 +1,23 @@
+h1{
+    background-color: deeppink;
+
+}
+    h2{
+      background-color: firebrick;  
+    }
+    h5{
+        background-color:blue;
+    }
+
+    #p3{
+        background-color: red; font-style: italic;
+    }
+h1,h2,li{
+    color: crimson;
+}
+a{
+    font-size: larger;
+}
+section{
+    
+}

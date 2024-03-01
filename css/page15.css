@@ -1,0 +1,82 @@
+.proper{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.ball1{
+    background-color:rgb(18, 14, 14);
+    width:100px ;
+    height:100px ;
+    border-top: 3.4px solid rgb(2, 34, 34);
+    border-bottom: 3.4px solid rgb(11, 17, 23);
+    border-right: 3.4px solid rgb(242, 162, 12);
+    border-left: 3.4px solid rgb(152, 6, 6);
+    border-radius: 50%;
+    /* position: absolute; */
+    /* left: 50px; */
+    /* background: linear-gradient(7); */
+}
+
+.ball2{
+    background-color: darkslategray;
+    width: 100px;
+    height: 100px;
+    border-top:3.4px solid rgb(235, 148, 17) ;
+    border-bottom: 3.4px solid paleturquoise;
+    border-right: 3.4px solid rgb(237, 11, 11);
+    border-left: rgb(0, rgb(162, 15, 220), rgb(2, 2, 59));
+    border-radius: 50%;
+    position: absolute;
+    left: 706px;
+    /* background: linear-gradient(4); */
+}
+
+.ball1{
+    animation-name: ball1;
+    animation-duration:3s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in; 
+}
+
+.ball2{
+    animation-name: ball2;
+    animation-duration:3s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    /* animation-timing-functio: ; */
+}
+
+@keyframes ball1 {
+    from{
+        transform: translateX(0) rotate(0);
+        background-color: rgb(240, 75, 10);
+        /* opacity: 0; */
+    }
+
+   to {
+        transform: translateX(600px) rotate(360deg);
+        /* opacity: 0; */
+
+    }
+}
+
+@keyframes ball2 {
+    from{
+        transform: translateX(0) rotate(0);
+        background-color: rgb(110, 10, 240);
+        /* opacity: 0; */
+    }
+
+   to {
+        transform: translateX(600px) rotate(360deg);
+        /* opacity: 0; */
+
+    }
+}
+
+

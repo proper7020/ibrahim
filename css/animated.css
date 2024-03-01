@@ -1,0 +1,78 @@
+
+.proper{
+display: flex;
+justify-content: center;
+}
+
+
+
+/* .wale{
+    background-color: antiquewhite;
+    width: 150px;
+    height: 150px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid red;
+    border-right:2px ;
+    border-left:2px  solid green;
+    border-radius: 300px;
+    position: absolute;
+    left: 0;?
+
+} */
+
+.wale{
+    animation-name:ibrahim;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+
+.bola{
+    background-color: rgb(11, 8, 61);
+    width: 150px;
+    height: 150px;
+    border-top: 2px solid rgb(214, 214, 224);
+    border-bottom: 2px solid rgb(234, 172, 172);
+    border-right:2px ;
+    border-left:2px  solid rgb(34, 223, 34);
+    border-radius: 300px;
+    animation-delay: 7s;
+    border-bottom: 20px;
+   
+
+}
+
+.bola{
+    animation-name:ib ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+   
+
+    @keyframes ib{
+    from{
+        transform: translateX(0) rotate(0);
+        background-color: rgb(255, 7, 44);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(523px) rotate(360deg);
+        background-color: aqua;
+        
+    }
+}
+
+    @keyframes ibrahim{
+    from{
+        transform: translateX(0) rotate(0);
+        background-color: rgb(221, 132, 16);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(523px) rotate(360deg);
+    }
+}

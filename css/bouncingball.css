@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div ul{
+    display: flex;
+    border-bottom: 5px solid red;
+}
+
+div ul li{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3, 28, 28);
+    list-style: none;
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: ibrahim 0.9s linear infinite;
+}
+
+@keyframes ibrahim {
+        0%{
+                transform: translateY(0);
+        }
+        50%{
+                transform: translateY(-150px);
+        }
+        100%{
+                transform: translateY(0);
+        }
+}
+
+ul li:nth-of-type(1){
+    animation-delay: 0.3s;
+    background-color: rgb(40, 237, 174);
+}
+
+ul li:nth-of-type(2){
+    animation-delay:0.6s ;
+    background-color: brown;
+}
+
+ul li:nth-of-type(3){
+    animation-delay:0.8s;
+    background-color: cyan;
+}
+
+ul li:nth-of-type(4){
+    animation-delay: 0.10s;
+    background-color: fuchsia;
+}

@@ -1,0 +1,32 @@
+
+body{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height:3vh ;
+    
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    
+    
+
+}  
+h1{
+    text-align: center;
+    width: 80%;
+}
+.work{
+    width:400px ;
+    border:1px black solid;
+    padding: 10px; 
+    margin:0 auto;
+    display: grid;
+    place-items: center;
+
+}
+
+.work2 {
+    border: 5px solid white;
+    padding: 15px;
+}

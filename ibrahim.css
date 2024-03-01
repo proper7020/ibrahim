@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    background-color: black;
+    color: #fff;
+}
+
+.proper{
+    background-color: azure;
+    width: 95%;
+}
+
+ section div:nth-of-type(1) {
+    background-color:red;
+    width: 200px;
+    height: 100px;
+    grid-template-columns: 6px;
+}
+
+ section div:nth-of-type(2) {
+    background-color: rgb(96, 96, 4);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 67px;
+    left: 80%;
+    bottom: 70%;
+    text-align: center;
+}
+
+ section div:nth-of-type(3) {
+    background-color:rgb(17, 79, 79);
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 67px;
+    left: 80%;
+    bottom: 55px;
+}
+
+ section div:nth-of-type(4) {
+    background-color: rgb(105, 65, 17);
+    width: 200px;
+    height: 100px;
+}
+
+ section div:nth-of-type(5) {
+    background-color:rgb(37, 31, 31);
+    width: 200px;
+    height: 100px;
+}
+
+ section div:nth-of-type(6) {
+    background-color:rgb(115, 227, 115);
+    width: 200px;
+    height: 100px;
+}
+

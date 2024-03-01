@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: #fff;
+    /* background-image: url(table of images/Iphone 14.avif); */
+}
+.proper{
+    color: red;
+}
+.img{
+   color: red;
+   border-radius: 50%; 
+}
+.layout{
+    display: flex;
+    font-weight: bolder;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; */
+    border-radius: 50%;
+}
+.stat{
+    color: red;
+}
+span{
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+span:hover{
+    color: red;
+}
+a>button{
+    font-size: larger;
+    font-weight: 400;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+    margin-left: 40px;
+}
+a>button:hover{
+transition: all ease-in-out;
+background-color:orange;
+color: #fff;
+}
+
+h1{
+
+/* font-weight: 100%; */
+
+}
+.content{
+    display: flex;
+    /* padding-left: 50px; */
+    /* margin-left: 50px; */
+}
+.phone{
+    /* width: 60px; */
+    /* padding-right: 300pxpx; */
+}
+a{
+    text-decoration: none;
+    
+}
+.style{
+    /* justify-content: space-between; */
+}
+.mee{
+    justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+#logo{
+   width: ;
+}
+
+#clickers{
+   display: flex;
+   gap: 50px;
+}
+
+#name{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   background-color: rgb(4, 4, 49);
+   color: #fff;
+
+}
+
+#message{
+   width: 25px;
+}
+
+#search{
+   width: 25px;
+}
+
+#green{
+   width: 15px;
+}
+
+#messsearch {
+   display: flex;
+   gap: 25px;
+
+}

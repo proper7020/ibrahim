@@ -92,5 +92,37 @@
             </tr>
           <body>  
 
+
+const guessingGame = () => {
+  let feedback = ""; // Initialize variables
+  let guess;
+  let noOfGuesses = 1;
+  const MAX_ATTEMPTS = 5; // Define constant for maximum attempts
+  const secretNum = Math.ceil(Math.random() * 15); // Generate secret number
+
+  while (noOfGuesses <= MAX_ATTEMPTS) {
+      guess = Number(prompt("Guess a number between 0 and 15..."));
+
+      if (isNaN(guess)) { // Check if guess is not a number
+          feedback = "Invalid input. Please enter a number.";
+          continue; // Skip the rest of the loop and prompt again
+      }
+
+      if (guess === secretNum) {
+          feedback = "Hurray! You guessed right.";
+          break; // Exit the loop early if guessed correctly
+      } else {
+          feedback = "Oh, wrong! Please guess again...";
+          noOfGuesses++;
+         
+
 </body>   
-</html>   
+</html>    if (noOfGuesses > MAX_ATTEMPTS) {
+              feedback = "Sorry! You are out of options";
+          }
+      }
+  }
+  return feedback;
+};
+
+console.log(guessingGame());
